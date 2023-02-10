@@ -31,12 +31,20 @@ public class IngredientTypeTest {
     }
 
     @Before
+<<<<<<< HEAD
     public void setup() {
+=======
+    public void setupTest() {
+>>>>>>> c43e08e (Final project Diplom-1)
         ingredient = new Ingredient(type, name, price);
     }
 
     @Test
     public void ingredientTypeTest() {
+<<<<<<< HEAD
         assertEquals("Ingredient is incorrect", type, ingredient.getType());
+=======
+        assertEquals("Ingredient is not correct", type, ingredient.getType());
+>>>>>>> c43e08e (Final project Diplom-1)
     }
 }

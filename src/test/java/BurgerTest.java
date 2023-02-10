@@ -57,7 +57,11 @@ public class BurgerTest {
     public void removeIngredientTest() {
         burger.addIngredient(ingredient);
         burger.removeIngredient(0);
+<<<<<<< HEAD
         assertEquals("Ingredients is not removed", 0, burger.ingredients.size());
+=======
+        assertEquals("Ingredient is not removed", 0, burger.ingredients.size());
+>>>>>>> c43e08e (Final project Diplom-1)
     }
 
     @Test
@@ -73,7 +77,11 @@ public class BurgerTest {
     public void getPriceTest() {
         burger.setBuns(bun);
         burger.addIngredient(ingredient);
+<<<<<<< HEAD
         assertEquals("Price is incorrect", 680, burger.getPrice(), 0);
+=======
+        assertEquals("Price is not correct", 680, burger.getPrice(), 0);
+>>>>>>> c43e08e (Final project Diplom-1)
     }
 
     @Test
