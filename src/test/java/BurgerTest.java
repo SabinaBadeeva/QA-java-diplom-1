@@ -73,7 +73,7 @@ public class BurgerTest {
     public void getPriceTest() {
         burger.setBuns(bun);
         burger.addIngredient(ingredient);
-        assertEquals("Price is not correct", 680, burger.getPrice(), 0);
+        assertEquals("Price is incorrect", 680, burger.getPrice(), 0);
     }
 
     @Test

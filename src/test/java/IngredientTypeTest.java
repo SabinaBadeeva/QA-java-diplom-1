@@ -31,7 +31,7 @@ public class IngredientTypeTest {
     }
 
     @Before
-    public void setupTest() {
+    public void setup() {
         ingredient = new Ingredient(type, name, price);
     }
 

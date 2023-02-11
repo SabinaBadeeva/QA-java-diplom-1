@@ -13,8 +13,8 @@ public class BunTest {
 
     @Test
     public void bunGetName() {
-        String actual = bun.getName();
-        Assert.assertEquals("red bun", actual);
+        String actualName = bun.getName();
+        Assert.assertEquals("red bun", actualName);
     }
 
     @Test

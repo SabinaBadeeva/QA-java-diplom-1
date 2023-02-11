@@ -9,7 +9,7 @@ public class IngredientTest {
     Ingredient ingredient;
 
     @Before
-    public void setupTest() {
+    public void setup() {
         ingredient = new Ingredient(FILLING, "dinosaur", 200.0F);
     }
 
