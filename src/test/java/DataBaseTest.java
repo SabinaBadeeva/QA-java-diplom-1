@@ -17,8 +17,8 @@ public class DataBaseTest {
 
     @Test
     public void availableBunTest() {
-        List<Bun> buns = database.availableBuns();
-        Assert.assertFalse(buns.isEmpty());
+        List<Bun> bun = database.availableBuns();
+        Assert.assertFalse(bun.isEmpty());
     }
 
     @Test
