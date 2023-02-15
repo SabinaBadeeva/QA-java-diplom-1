@@ -7,7 +7,7 @@ import praktikum.Ingredient;
 
 import java.util.List;
 
-public class DatabaseTest {
+public class DataBaseTest {
     Database database;
 
     @Before
